@@ -78,5 +78,5 @@ m_1000_noise /= np.max(m_1000_noise)
 ax[2, 2].imshow(m_1000_noise, cmap = 'binary')
 ax[2, 2].set_title("n=1000")
 
-#plt.savefig("lab1.png")
+plt.savefig("lab1.png")
 plt.show()
