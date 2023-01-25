@@ -17,7 +17,7 @@ for i in range(3):
 
 ground_truth = skimage.measure.label(ground_truth)
 
-fig, ax = plt.subplots(2, 3, figsize = (12, 12))
+fig, ax = plt.subplots(2, 3, figsize = (12, 10))
 
 mean, standard_deviation, samples = 0, 16, img.shape
 
